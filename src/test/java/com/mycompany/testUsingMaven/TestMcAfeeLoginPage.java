@@ -33,7 +33,9 @@ public class TestMcAfeeLoginPage {
 		    baseUrl = "http://home.mcafee.com/";
 		    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
-	
+
+
+
 		@Test
 		public void testMcAfeeLoginPageTitle() throws Exception{
 		//ffdriver.manage().timeouts().pageLoadTimeout(30L, TimeUnit.SECONDS);
